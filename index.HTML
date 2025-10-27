@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Approval Hub - Your Key to a New Beginning</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Pre-Header Bar -->
+    <div class="pre-header">
+        <div class="container">
+            <span><i class="fas fa-check-circle"></i> Your Key to a New Home. Approved, Guaranteed.</span>
+            <span><i class="fas fa-comments"></i> 24/7 Support via Secure Messaging</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h2><i class="fas fa-key"></i> The Approval Hub</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#success">Success Stories</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cta-button nav-cta" onclick="openQuiz()">Check Your Eligibility</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">Trusted by 4,300+ Families</div>
+                <h1>Your Past Doesn't Define Your <span class="highlight">Future Home</span>.</h1>
+                <p class="hero-subtitle">Bad credit? Past eviction? No rental history? We provide the verifiable proof and financial backing to get you approved. Legitimately.</p>
+                <div class="hero-buttons">
+                    <button class="cta-button primary" onclick="openQuiz()">
+                        <i class="fas fa-rocket"></i> Get Your Personalized Approval Plan
+                    </button>
+                    <button class="cta-button secondary" onclick="scrollToSection('services')">
+                        <i class="fas fa-eye"></i> View Our Services
+                    </button>
+                </div>
+                <div class="trust-indicator">
+                    <div class="trust-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>100% Legal & Compliant</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-lock"></i>
+                        <span>Secure & Encrypted</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-clock"></i>
+                        <span>24-48 Hour Process</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="card-header">
+                        <div class="user-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="User">
+                        </div>
+                        <div class="user-info">
+                            <strong>Sarah M.</strong>
+                            <span>Approved in 48 hours</span>
+                        </div>
+                    </div>
+                    <div class="card-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%"></div>
+                        </div>
+                        <span>Application Status: <strong>Approved</strong></span>
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <span>Credit Score</span>
+                            <strong>720+</strong>
+                        </div>
+                        <div class="stat">
+                            <span>Rental History</span>
+                            <strong>4 Years</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem & Solution Section -->
+    <section class="problem-solution">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tired of Hearing <span class="highlight">'No'</span>?</h2>
+                <p>We transform rental application rejections into approved applications</p>
+            </div>
+            <div class="ps-grid">
+                <div class="problem-column">
+                    <div class="section-card">
+                        <h3><i class="fas fa-times-circle"></i> The Problem</h3>
+                        <div class="problem-item">
+                            <div class="problem-icon">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <div class="problem-content">
+                                <strong>Application Denied Due to Credit</strong>
+                                <span>Low score or no credit history holding you back</span>
+                            </div>
+                        </div>
+                        <div class="problem-item">
+                            <div class="problem-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="problem-content">
+                                <strong>Past Eviction Haunting You</strong>
+                                <span>Previous rental issues affecting current applications</span>
+                            </div>
+                        </div>
+                        <div class="problem-item">
+                            <div class="problem-icon">
+                                <i class="fas fa-history"></i>
+                            </div>
+                            <div class="problem-content">
+                                <strong>Insufficient Rental History</strong>
+                                <span>First-time renter or limited history</span>
+                            </div>
+                        </div>
+                        <div class="problem-item">
+                            <div class="problem-icon">
+                                <i class="fas fa-file-invoice-dollar"></i>
+                            </div>
+                            <div class="problem-content">
+                                <strong>Income is "Too Complicated"</strong>
+                                <span>Self-employed or gig worker income verification</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-column">
+                    <div class="section-card">
+                        <h3><i class="fas fa-check-circle"></i> Our Solution</h3>
+                        <div class="solution-item">
+                            <div class="solution-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="solution-content">
+                                <strong>The Rental Résumé Builder</strong>
+                                <span>Build verifiable rental history instantly</span>
+                            </div>
+                        </div>
+                        <div class="solution-item">
+                            <div class="solution-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="solution-content">
+                                <strong>The Approval Partner Program</strong>
+                                <span>Get a qualified co-signer with 720+ credit</span>
+                            </div>
+                        </div>
+                        <div class="solution-item">
+                            <div class="solution-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <div class="solution-content">
+                                <strong>The Total Turnaround Package</strong>
+                                <span>Complete solution with approval guarantee</span>
+                            </div>
+                        </div>
+                        <button class="cta-button secondary" onclick="scrollToSection('how-it-works')">
+                            <i class="fas fa-play-circle"></i> See How It Works
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Your Path to a <span class="highlight">New Home</span></h2>
+                <p>Simple 4-step process to get you from application to approval</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Tell Us Your Story</h3>
+                    <p>Secure 5-min assessment with no commitment</p>
+                </div>
+                <div class="timeline-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Get Your Roadmap</h3>
+                    <p>Personalized plan from a dedicated specialist</p>
+                </div>
+                <div class="timeline-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>We Go To Work</h3>
+                    <p>We handle all verifications & partner matching</p>
+                </div>
+                <div class="timeline-step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Move In</h3>
+                    <p>Get keys to your new home with confidence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="highlight">Affordable</span> Services</h2>
+                <p>Choose the solution that fits your needs and budget</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="service-badge">Quick Fix</div>
+                    <h3>The Rental Résumé Builder</h3>
+                    <div class="price">$149</div>
+                    <p class="service-description">Craft an Irresistible Rental Profile. Turn your rental history from a question mark into your strongest asset.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 4+ Years of Verifiable Positive Rental History</li>
+                        <li><i class="fas fa-check"></i> Seamless Landlord Matching</li>
+                        <li><i class="fas fa-check"></i> Professional Digital Dossier</li>
+                        <li><i class="fas fa-check"></i> 24-48 Hour Processing</li>
+                    </ul>
+                    <button class="cta-button secondary" onclick="selectService('Rental Résumé Builder')">
+                        <i class="fas fa-shopping-cart"></i> Select This Plan
+                    </button>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="service-badge">Fast Track</div>
+                    <h3>The Approval Partner Program</h3>
+                    <div class="price">$349</div>
+                    <p class="service-description">Instantly Meet (and Exceed) Income & Credit Requirements.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Vetted Co-Applicant with 720+ Credit Score</li>
+                        <li><i class="fas fa-check"></i> Income Verification Exceeding Requirements</li>
+                        <li><i class="fas fa-check"></i> Full Application Support</li>
+                        <li><i class="fas fa-check"></i> Priority 24-48 Hour Processing</li>
+                    </ul>
+                    <button class="cta-button secondary" onclick="selectService('Approval Partner Program')">
+                        <i class="fas fa-shopping-cart"></i> Select This Plan
+                    </button>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card featured">
+                    <div class="popular-badge">
+                        <i class="fas fa-crown"></i> Most Popular
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div class="service-badge">Complete Solution</div>
+                    <h3>The Total Turnaround Package</h3>
+                    <div class="price">$599</div>
+                    <p class="service-description">Our Most Powerful Solution. Get Approved, Guaranteed.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Credit Profile Analysis & Rapid-Build Plan</li>
+                        <li><i class="fas fa-check"></i> Rental Résumé & Approval Partner Included</li>
+                        <li><i class="fas fa-check"></i> Dedicated Housing Specialist</li>
+                        <li><i class="fas fa-check"></i> Unlimited Application Support</li>
+                        <li><i class="fas fa-check"></i> 90-Day Approval Guarantee</li>
+                    </ul>
+                    <button class="cta-button primary" onclick="selectService('Total Turnaround Package')">
+                        <i class="fas fa-bolt"></i> Select This Plan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="4300">0</div>
+                    <div class="stat-label">Homes Unlocked</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="24">0</div>
+                    <div class="stat-label">Hour Support</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="150">0</div>
+                    <div class="stat-label">Partner Landlords</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories with Carousel -->
+    <section id="success" class="success-stories">
+        <div class="container">
+            <div class="section-header">
+                <h2>From Our <span class="highlight">Community</span> to Yours</h2>
+                <p>Real stories from people who found their dream home with us</p>
+            </div>
+            <div class="stories-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <!-- Story 1 -->
+                        <div class="story-card">
+                            <div class="story-header">
+                                <div class="user-avatar">
+                                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="Maria Johnson">
+                                </div>
+                                <div class="user-info">
+                                    <strong>Maria Johnson</strong>
+                                    <span>Atlanta, GA</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="story-content">
+                                <p>"After my divorce, my credit was in the 500s. I was denied six times and felt hopeless. The Approval Hub's Rental Résumé didn't just give me a history—it gave me my confidence back. I'm writing this from the balcony of my new apartment!"</p>
+                            </div>
+                            <div class="story-footer">
+                                <div class="service-tag">
+                                    <i class="fas fa-tag"></i> Used the Rental Résumé Builder
+                                </div>
+                                <div class="story-date">2 weeks ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Story 2 -->
+                        <div class="story-card">
+                            <div class="story-header">
+                                <div class="user-avatar">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="James Lopez">
+                                </div>
+                                <div class="user-info">
+                                    <strong>James Lopez</strong>
+                                    <span>Chicago, IL</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="story-content">
+                                <p>"As a freelance designer, every application was a battle. The Approval Partner Program provided the financial backbone they needed to see me as low-risk. I was approved in 48 hours for my dream loft in downtown Chicago!"</p>
+                            </div>
+                            <div class="story-footer">
+                                <div class="service-tag">
+                                    <i class="fas fa-tag"></i> Used the Approval Partner Program
+                                </div>
+                                <div class="story-date">1 month ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Story 3 -->
+                        <div class="story-card">
+                            <div class="story-header">
+                                <div class="user-avatar">
+                                    <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="The Rodriguez Family">
+                                </div>
+                                <div class="user-info">
+                                    <strong>The Rodriguez Family</strong>
+                                    <span>Austin, TX</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="story-content">
+                                <p>"A pandemic eviction felt like a life sentence. We thought we'd be stuck with my in-laws forever. The Total Turnaround Package was our only hope. Our specialist, Sarah, fought for us. She didn't just provide a service; she gave us our family's future back."</p>
+                            </div>
+                            <div class="story-footer">
+                                <div class="service-tag">
+                                    <i class="fas fa-tag"></i> Used the Total Turnaround Package
+                                </div>
+                                <div class="story-date">3 months ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-prev" onclick="moveCarousel(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn carousel-next" onclick="moveCarousel(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Your Questions, <span class="highlight">Answered</span></h2>
+                <p>Everything you need to know about our services</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <div class="faq-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <span>Is this service legal and ethical?</span>
+                        <span class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>100%. We operate in full compliance with all fair housing and consumer protection laws. We are a verification and tenant advocacy service. We help you present a complete, accurate, and verifiable picture of your suitability as a tenant.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <div class="faq-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span>What is your guarantee?</span>
+                        <span class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our Total Turnaround Package comes with our 'Approval Guarantee.' If you follow our plan and are not approved for a qualifying property within 90 days, you will receive a 50% refund. Individual services have a 95% success rate.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <div class="faq-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <span>How soon can you help me?</span>
+                        <span class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our Rental Verification and Co-Applicant services typically take 24-48 hours to set up. The Total Turnaround Package requires a more comprehensive approach but shows results within the first week.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <div class="faq-icon">
+                            <i class="fas fa-phone-slash"></i>
+                        </div>
+                        <span>Do I have to talk on the phone?</span>
+                        <span class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Your comfort is our priority. Our entire process is designed to be handled asynchronously via our secure client portal and email. You can message your specialist directly without a single phone call.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions? Our housing specialists are here to help you find the perfect solution.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <strong>Phone</strong>
+                                <span>+1 (773) 916-6126</span>
+                                <a href="tel:+17739166126" class="call-button">Call Now</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <strong>Email</strong>
+                                <span>approvalhub466@gmail.com</span>
+                                <a href="mailto:approvalhub466@gmail.com" class="email-button">Email Us</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <strong>Hours</strong>
+                                <span>Mon-Fri 9am-6pm EST</span>
+                                <span>24/7 Emergency Support</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trust-badges">
+                        <div class="trust-badge">
+                            <i class="fas fa-lock"></i>
+                            <span>256-Bit SSL Encrypted</span>
+                        </div>
+                        <div class="trust-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>100% Secure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <p>We'll respond within 1 hour during business hours</p>
+                    
+                    <form id="contactForm" class="form">
+                        <input type="hidden" name="_subject" value="New Contact Form Submission - The Approval Hub">
+                        <input type="hidden" name="_replyto" value="approvalhub466@gmail.com">
+                        <input type="hidden" name="_cc" value="approvalhub466@gmail.com">
+                        
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="name" required class="form-input">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required class="form-input">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required class="form-input">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service" class="form-input">
+                                <option value="">Select a service</option>
+                                <option value="Rental Résumé Builder">Rental Résumé Builder - $149</option>
+                                <option value="Approval Partner Program">Approval Partner Program - $349</option>
+                                <option value="Total Turnaround Package">Total Turnaround Package - $599</option>
+                                <option value="Not Sure">Not Sure - Need Guidance</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Situation *</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your rental situation, credit history, or any challenges you're facing..." required class="form-input"></textarea>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">I agree to receive emails and SMS messages from The Approval Hub</label>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="cta-button primary full-width" id="submitButton">
+                            <i class="fas fa-paper-plane"></i> Send Message & Get Help
+                        </button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                    
+                    <div class="form-note">
+                        <p><i class="fas fa-info-circle"></i> We'll also text you at the phone number provided to ensure you get immediate assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Write Your <span class="highlight">Next Chapter</span>?</h2>
+                <p>Stop dreaming. Start moving. Get your personalized plan in 60 seconds.</p>
+                <button class="cta-button primary large" onclick="openQuiz()">
+                    <i class="fas fa-bolt"></i> Check Your Eligibility Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-key"></i>
+                        <h3>The Approval Hub</h3>
+                    </div>
+                    <p>Your Key to a New Beginning. Legitimately.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Rental Résumé Builder</a></li>
+                        <li><a href="#services">Approval Partner Program</a></li>
+                        <li><a href="#services">Total Turnaround Package</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#success">Success Stories</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> approvalhub466@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (773) 916-6126</p>
+                        <p><i class="fas fa-clock"></i> Mon-Fri 9am-6pm EST</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="trust-bar">
+                    <span><i class="fas fa-lock"></i> 256-Bit SSL Encrypted</span>
+                    <span><i class="fas fa-star"></i> 4.9/5 Customer Rating</span>
+                    <span><i class="fas fa-home"></i> <span id="footerCounter">0</span>+ Homes Unlocked</span>
+                    <span><i class="fas fa-bolt"></i> 24-72 Hour Processing</span>
+                </div>
+                <p>&copy; 2024 The Approval Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Quiz Modal -->
+    <div id="quizModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeQuiz()">&times;</span>
+            <div id="quizSteps">
+                <!-- Step 1 -->
+                <div class="quiz-step active" id="step1">
+                    <div class="quiz-welcome">
+                        <div class="welcome-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <h2>Let's Find Your Path to a New Home</h2>
+                        <p>This 60-second quiz will analyze your unique situation and recommend the fastest way to get approved. No spam, no commitment.</p>
+                        <button class="cta-button primary" onclick="nextStep(2)">
+                            <i class="fas fa-play"></i> Start My Free Assessment
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="quiz-step" id="step2">
+                    <div class="quiz-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 25%"></div>
+                        </div>
+                        <span>Step 1 of 3</span>
+                    </div>
+                    <h3>What's your biggest concern when applying for a rental right now?</h3>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="selectOption(this, 'credit')">
+                            <div class="option-icon">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <div class="option-content">
+                                <strong>Bad Credit or No Credit</strong>
+                                <span>My score is low or I don't have a history</span>
+                            </div>
+                        </div>
+                        <div class="quiz-option" onclick="selectOption(this, 'eviction')">
+                            <div class="option-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="option-content">
+                                <strong>Past Eviction or Broken Lease</strong>
+                                <span>I have a mark on my rental history</span>
+                            </div>
+                        </div>
+                        <div class="quiz-option" onclick="selectOption(this, 'history')">
+                            <div class="option-icon">
+                                <i class="fas fa-history"></i>
+                            </div>
+                            <div class="option-content">
+                                <strong>No Rental History</strong>
+                                <span>I'm a first-time renter or lived with family</span>
+                            </div>
+                        </div>
+                        <div class="quiz-option" onclick="selectOption(this, 'income')">
+                            <div class="option-icon">
+                                <i class="fas fa-file-invoice-dollar"></i>
+                            </div>
+                            <div class="option-content">
+                                <strong>Income Verification</strong>
+                                <span>I'm self-employed or a gig worker</span>
+                            </div>
+                        </div>
+                        <div class="quiz-option" onclick="selectOption(this, 'combination')">
+                            <div class="option-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <div class="option-content">
+                                <strong>A Combination of These</strong>
+                                <span>I'm facing a few of these challenges</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="cta-button primary" onclick="nextStep(3)" disabled id="step2Next">
+                        Continue <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="quiz-step" id="step3">
+                    <div class="quiz-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 50%"></div>
+                        </div>
+                        <span>Step 2 of 3</span>
+                    </div>
+                    <h3>How soon are you hoping to move?</h3>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="selectOption(this, 'asap')">
+                            <div class="option-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="option-content">
+                                <strong>ASAP (Within 30 days)</strong>
+                                <span>I need a solution fast</span>
+                            </div>
+                        </div>
+                        <div class="quiz-option" onclick="selectOption(this, '1-3months')">
+                            <div class="option-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="option-content">
+                                <strong>In the next 1-3 months</strong>
+                                <span>I'm planning ahead</span>
+                            </div>
+                        </div>
+                        <div class="quiz-option" onclick="selectOption(this, 'exploring')">
+                            <div class="option-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="option-content">
+                                <strong>Just exploring my options</strong>
+                                <span>I want to see what's possible</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="cta-button primary" onclick="nextStep(4)" disabled id="step3Next">
+                        Continue <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Step 4 - Results -->
+                <div class="quiz-step" id="step4">
+                    <div class="quiz-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%"></div>
+                        </div>
+                        <span>Step 3 of 3</span>
+                    </div>
+                    <div class="quiz-results">
+                        <div class="success-animation">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h2>Your Personalized Approval Plan is Ready!</h2>
+                        <div id="recommendation">
+                            <!-- Dynamic content will be inserted here -->
+                        </div>
+                        <div class="lead-capture">
+                            <h3>Get Your Full Plan & Pricing</h3>
+                            <p>Enter your email to instantly receive your detailed Personalized Approval Plan via email, with exact pricing and next steps.</p>
+                            <form id="leadForm" class="form">
+                                <input type="hidden" name="_subject" value="New Quiz Lead - The Approval Hub">
+                                <input type="text" name="name" placeholder="First Name" required class="form-input">
+                                <input type="email" name="email" placeholder="Email Address" required class="form-input">
+                                <input type="tel" name="phone" placeholder="Phone Number (Optional)" class="form-input">
+                                <button type="submit" class="cta-button primary">
+                                    <i class="fas fa-paper-plane"></i> Send My Plan & Pricing!
+                                </button>
+                            </form>
+                            <p class="privacy-note">
+                                <i class="fas fa-lock"></i> We respect your privacy. No spam, ever.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Chat Widget -->
+    <div class="chat-widget" onclick="toggleChat()">
+        <div class="chat-icon">
+            <i class="fas fa-comments"></i>
+        </div>
+        <div class="chat-text">
+            <span>Need Help?</span>
+            <small>We're here for you</small>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
